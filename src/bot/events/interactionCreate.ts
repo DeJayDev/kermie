@@ -15,8 +15,7 @@ export default class InteractionCreate extends EventHandler {
                         title: "Not Ready",
                         description:
                             "I'm not ready yet, please try again in a moment!"
-                    },
-                    true
+                    }
                 )
             );
         if (interaction.isCommand()) {
@@ -39,8 +38,7 @@ export default class InteractionCreate extends EventHandler {
                 {
                     title: "Invalid Interaction",
                     description: "I've never seen this type of interaction"
-                },
-                true
+                }
             )
         );
     }

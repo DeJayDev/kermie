@@ -2,16 +2,14 @@ import { Intents, PermissionString, PresenceData } from "discord.js";
 
 export default {
     prefixes: process.env.NODE_ENV === "production" ? ["!"] : ["!!"],
-    botName: "",
+    botName: "kermie",
 
     version: "1.0.0",
-    admins: [""],
+    admins: ["194861788926443520"],
 
     // If your bot isn't public, or open source, or doesn't have a
     // Support server, feel free to remove the following variables.
-    supportServer: "",
-    minimalInvite: "",
-    gitHub: "",
+    gitHub: "https://github.com/dejaydev/kermie",
 
     presence: {
         status: "online",
@@ -23,7 +21,7 @@ export default {
         ]
     } as PresenceData,
 
-    hastebin: "https://h.inv.wtf",
+    hastebin: "https://hst.sh",
 
     // To replace these colors please make sure you are providing a
     // hexadecimal color.

@@ -150,8 +150,7 @@ export default class DropdownHandler {
                         title: "An Error Has Occurred",
                         description: `An unexpected error was encountered while running this drop down, my developers have already been notified! Feel free to join my support server in the mean time!`,
                         footer: { text: `Sentry Event ID: ${sentryId} ` }
-                    },
-                    true
+                    }
                 );
                 if (interaction.replied) return interaction.followUp(toSend);
                 else
